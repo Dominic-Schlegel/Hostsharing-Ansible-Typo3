@@ -11,7 +11,7 @@
     sudo: yes
     sudo_user: "{{pac}}-{{user}}"
     command: wget get.typo3.org/6.2 -O typo3_src.tgz chdir="/home/pacs/{{pac}}/users/{{user}}/doms/{{domain}}/subs"
-  - name: make typo3_src directoryl
+  - name: make typo3_src directory
     sudo: yes
     sudo_user: "{{pac}}-{{user}}"
     command: mkdir typo3_src chdir="/home/pacs/{{pac}}/users/{{user}}/doms/{{domain}}/subs"
